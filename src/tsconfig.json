@@ -1,0 +1,37 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": [ "es2017" ],
+    "strict": true,
+    //"noUnusedLocals": true,
+    //"noEmitOnError": true,
+    //"noEmitHelpers": true,
+    //"removeComments": true,
+    "baseUrl": ".",
+    "outDir": "../es6",
+
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+
+    //"alwaysStrict": false,
+    //"noImplicitUseStrict": true,
+
+    "removeComments": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+
+    //"emitDecoratorMetadata": true,
+    //"experimentalDecorators": true
+  },
+  "exclude": [
+    "node_modules", "es6"
+  ]
+}

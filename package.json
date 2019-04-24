@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "server",
+  "main": "app.js",
+  "author": {
+    "name": "admin"
+  },
+  "dependencies": {
+    "@types/adm-zip": "^0.4.31",
+    "@types/elasticsearch": "^5.0.19",
+    "@types/iconv-lite": "0.0.1",
+    "@types/mailparser": "^2.0.2",
+    "@types/node": "^8.5.2",
+    "@types/node-telegram-bot-api": "^0.28.2",
+    "@types/pg": "^7.4.9",
+    "@types/redis": "^2.8.3",
+    "@types/ws": "^3.2.1",
+    "parse5": "^5.1.0",
+    "request": "^2.88.0"
+  }
+}
